@@ -4,17 +4,17 @@ Question:
 
 The Moderator program requires the following command line arguments:
 
--task <task> where <task> is one of the following: rank_people, validate_forum, censor_forum, evaluate_forum 
+**-task** <task> where <task> is one of the following: rank_people, validate_forum, censor_forum, evaluate_forum 
   
--log <filename> where <filename> is the name of the file where the log should be written
+**-log** <filename> where <filename> is the name of the file where the log should be written
   
--forum <filename> where <filename> is the name of the file containing the forum messages
+**-forum** <filename> where <filename> is the name of the file containing the forum messages
   
--words <filename> where <filename> is the name of the file containing banned words
+**-words** <filename> where <filename> is the name of the file containing banned words
   
--people <filename> where <filename> is the name of the file containing forum users' names and personality scores
+**-people** <filename> where <filename> is the name of the file containing forum users' names and personality scores
 
-  All arguments must be provided. If an argument is not provided, the program should print No <arg> arguments provided. and stop immediately, where <arg> (without the -) is the first argument in the list above that is missing.
+All arguments must be provided. If an argument is not provided, the program should print** No <arg> arguments provided**. and stop immediately, where <arg> (without the -) is the first argument in the list above that is missing.
 If the <task> argument does not match a value in the options list, the program should print Task argument is invalid. and stop immediately.
 **The arguments can be provided in any order.**
 
