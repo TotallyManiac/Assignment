@@ -41,3 +41,9 @@ RISTRICTIONS
      any module you have written, e.g. import moderator
 
 - A submission containing a file longer than 3000 lines or larger than 500kB will not be accepted. To check the file sizes of your files, use the bash command ls -s --block-size=KB
+  
+SAMPLE ARGUMENT
+
+python3 moderator.py -task censor_forum -log example.log -forum example.forum -words example.words -people example.people
+  
+  => should print "Moderator program starting.." in terminal
