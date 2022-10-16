@@ -22,3 +22,22 @@ If any of the <filename> arguments for -forum, -words, or -people refers to a fi
 
 If multiple errors in the program call are incorrect, the first error that applies from above should be printed.
 If the program call is correct, the program should print "Moderator program starting.."
+
+RISTRICTIONS
+  
+- for keyword
+- in keyword
+- lambda keyword
+- any() function
+- all() function
+- filter() function
+- map() function
+- eval() function
+- global keyword
+- import keyword. Allowed import statements:
+     import math
+     import datetime
+     import sys 
+     any module you have written, e.g. import moderator
+
+- A submission containing a file longer than 3000 lines or larger than 500kB will not be accepted. To check the file sizes of your files, use the bash command ls -s --block-size=KB
