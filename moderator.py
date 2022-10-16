@@ -1,8 +1,3 @@
-"""
-Author:
-SID:
-Unikey:
-"""
 import sys 
 ls = []
 i = 1 
