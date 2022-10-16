@@ -62,9 +62,9 @@ while True:
     #elif ls.count("bad.people")>0:
         #print("bad.people cannot be read.") # this is hardcoded  
         #break 
-    if ls.count("bad.forum")>0:
-        print("bad.forum cannot be read.") # this is hardcoded  
-        break
+    #if ls.count("bad.forum")>0:
+        #print("bad.forum cannot be read.") # this is hardcoded  
+        #break
     if ls.count("rank_people")==0:
         print("Task argument is invalid.") # this is also hardcoded       
     else:
